@@ -10,7 +10,12 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSiP trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/DerpFest-Pie/platform_manifest.git -b pie
+repo init -u git://github.com/fzkangga/DerpFest-Pie_platform_manifest.git -b pie
+```
+To initialize a shallow clone your local repository using the AOSiP trees, use a command like this:
+
+```bash
+repo init --depth=1 -u git://github.com/fzkangga/DerpFest-Pie_platform_manifest.git -b pie
 ```
 Then to sync up:
 ```bash
