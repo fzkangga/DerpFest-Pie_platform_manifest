@@ -67,10 +67,10 @@
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="derp" />
+  <project path="frameworks/av" name="fzkangga/DerpFest-Pie_platform_frameworks_av" remote="github" revision="pie" />
+  <project path="frameworks/base" name="fzkangga/DerpFest-Pie_platform_frameworks_base" remote="github" revision="pie" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
+  <project path="frameworks/native" name="fzkangga/DerpFest-Pie_platform_frameworks_native" remote="github" revision="pie" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
@@ -103,7 +103,7 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="derp" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/Settings" name="fzkangga/DerpFest-Pie_platform_packages_apps_Settings" remote="github" revision="pie" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
   <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="derp" />
   <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="aosip" />
