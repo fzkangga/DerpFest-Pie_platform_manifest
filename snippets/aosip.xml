@@ -18,10 +18,10 @@
   <project path="art" name="platform_art" remote="aosip" />
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
-  <project path="manifest" name="fzkangga/DerpFest-Pie_platform_manifest" remote="github" revision="pie" />
+  <project path="manifest" name="fzkangga/DerpFest-Pie_platform_manifest" revision="pie" />
 
   <!-- Build -->
-  <project path="build/make" name="fzkangga/DerpFest-Pie_platform_build" remote="github" revision="pie" >
+  <project path="build/make" name="fzkangga/DerpFest-Pie_platform_build" revision="pie" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -40,7 +40,7 @@
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="derp" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
-  <project path="device/qcom/sepolicy-legacy" name="fzkangga/android_device_qcom_sepolicy-legacy" remote="github" revision="derpfest-pie-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="fzkangga/android_device_qcom_sepolicy-legacy" revision="derpfest-pie-legacy" />
 
   <!-- External -->
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" />
@@ -61,10 +61,10 @@
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="fzkangga/DerpFest-Pie_platform_frameworks_av" remote="github" revision="pie" />
-  <project path="frameworks/base" name="fzkangga/DerpFest-Pie_platform_frameworks_base" remote="github" revision="pie" />
+  <project path="frameworks/av" name="fzkangga/DerpFest-Pie_platform_frameworks_av" revision="pie" />
+  <project path="frameworks/base" name="fzkangga/DerpFest-Pie_platform_frameworks_base" revision="pie" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
-  <project path="frameworks/native" name="fzkangga/DerpFest-Pie_platform_frameworks_native" remote="github" revision="pie" />
+  <project path="frameworks/native" name="fzkangga/DerpFest-Pie_platform_frameworks_native" revision="pie" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" />
@@ -97,7 +97,7 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="derp" />
-  <project path="packages/apps/Settings" name="fzkangga/DerpFest-Pie_platform_packages_apps_Settings" remote="github" revision="pie" />
+  <project path="packages/apps/Settings" name="fzkangga/DerpFest-Pie_platform_packages_apps_Settings" revision="pie" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
   <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="derp" />
   <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="aosip" />
@@ -126,7 +126,7 @@
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="fzkangga/DerpFest-Pie_platform_vendor_aosip" remote="github" revision="pie" />
+  <project path="vendor/aosip" name="fzkangga/DerpFest-Pie_platform_vendor_aosip" revision="pie" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
